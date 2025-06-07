@@ -26,7 +26,7 @@ dir="onnxruntime-${version}-${os}-${arch}"
 archive="$dir.tar.gz"
 
 if test "$(uname -s)" = "Linux"; then
-	cp ../libonnxruntime-neuralnote/$archive .
+	cp ./libonnxruntime-neuralnote/$archive .
 fi
 
 # If either the library or the ort model is missing or if an archive was found
