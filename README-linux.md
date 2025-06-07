@@ -29,7 +29,7 @@ chmod 755 build-linux.sh
 ./build-linux.sh model.required_operators_and_types.with_runtime_opt.config
 ./make-archive.sh v1.14.1-neuralnote.0
 cd ../
-./build-linux.sh
+./build.sh
 ```
 
 
